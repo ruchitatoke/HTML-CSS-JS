@@ -1,0 +1,48 @@
+body{
+    background: #AEE2FF;
+}
+.container{
+    
+    width: 98%;
+    height: 85vh;
+    display: flex;
+    text-align: center;
+}
+.quotes{
+    border: 1px solid black;
+    width: 900px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    color: grey;
+    background-color: aliceblue;
+    border: 10px solid #F6BA6F;
+}
+.quotes p, .quotes h3{
+    font-size: 1.5rem;
+}
+
+@media(max-width:480px){
+    .quotes p , .quotesh3{
+        font-size: 1rem;
+    }
+}
+.btn button{
+    font-size: 1em;
+    background-color: #537188;
+    color: WHITE;
+    height: 40px;
+    width: 150px;
+    font-family: sans-serif;
+}
+.btn button:hover{
+    background-color: transparent;
+    color: black;
+}
+.btn{
+    padding-top: 30px;
+}
